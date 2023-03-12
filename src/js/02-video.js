@@ -2,7 +2,7 @@ import { Player } from '@vimeo/player';
 const player = new Player('vimeo-player');
 
 import throttle from 'lodash.throttle';
-import throttle from 'lodash.throttle';
+
 
 
 player.on('timeupdate', throttle(function handleTimeUpdate(data) {
